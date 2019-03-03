@@ -1,21 +1,21 @@
 #include<stdio.h>
 //this is a sin function
-void sin()
+void add()
 {
-   printf("we are calling sin function");
+   printf("we are calling add function");
 }
 //this is cos function
-void cos()
+void sub()
 {
-   printf("we are calling cos function");
+   printf("we are calling sub function");
 }
-void tan()
+void mul()
 {
-   printf("we are calling tan function");
+   printf("we are calling mul function");
 }
 void main()
 {
-  sin();
-  cos();
-  tan();
+  add();
+  sub();
+  mul();
 }
