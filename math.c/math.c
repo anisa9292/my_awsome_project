@@ -13,9 +13,15 @@ void mul()
 {
    printf("we are calling mul function");
 }
+void div()
+{
+   printf("we are calling div function");
+}
+
 void main()
 {
   add();
   sub();
   mul();
+  div();
 }
